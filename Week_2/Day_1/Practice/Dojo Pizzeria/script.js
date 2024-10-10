@@ -19,14 +19,14 @@ function sandwichFactory(bread, protein, cheese, toppings) {
 var s1 = sandwichFactory("wheat", "turkey", "provolone", ["mustard", "fried onions", "arugula"]);
 console.log(s1);
 // Create a pizza with: "deep dish", "traditional", ["mozzarella"], and ["pepperoni", "sausage"]
+crustType, sauceType, cheeses, and toppings.
 
 
-function pizzaOven(deepdish,traditional,mozzarella,pepperoni,sausage) {
+function pizzaOven(crustType,sauceType,cheeses,toppings) {
     var pizza = {};
-    pizza.deepdish = deepdish;
-    pizza.protein = traditional;
-    pizza.mozzarella = mozzarella;
-    pizza.pepperoni = pepperoni;
-    pizza.sausage = sausage;
+    pizza.crustType = deepdish;
+    pizza.sauceType = traditional;
+    pizza.cheeses = mozzarella;
+    pizza.toppings = pepperoni;
     return pizza ;
 }
