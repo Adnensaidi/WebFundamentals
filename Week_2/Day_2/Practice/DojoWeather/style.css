@@ -1,0 +1,112 @@
+* {
+    margin: 0% auto;
+    padding: 0%;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-content {
+    text-align: center;
+    }
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #9fc5f8;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    list-style-type : none
+}
+
+.header_content {
+    display: flex;
+    gap: 400px;
+    border-bottom: 3px solid black;
+    margin: 20px auto;
+    width: 800px;
+}
+
+.temperature button{
+    width: 40px;
+    height: 30px;
+}
+
+.temperature {
+    display: flex;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 800px;
+}
+.row img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.column {
+    background-color: rgb(241, 241, 241);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+}
+.temp {
+    display: flex;
+    width: 10px;
+    height: 20px;
+}
+.temp select {
+    height: 30px;
+}
+
+.numbers {
+    display: flex;
+    gap: 80px;
+}
+
+.numbers_first {
+    color: #cf2a27;
+}
+
+.numbers_second {
+    color: #6595d9;
+}
+
+#footer {
+    display: flex;
+    width: 800px;
+    padding: 20px 2px ;
+    background-color: #eeeeee;
+    border: 2px solid black
+}
+#Cookie {
+    text-align: start;
+}
+p{
+    text-align: start;
+}
+#footer button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #75adf7;
+    color: black;
+}
+
+.footer_text span {
+    color: blue;
+    text-decoration: underline;
+}

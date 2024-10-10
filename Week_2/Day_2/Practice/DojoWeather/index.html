@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <div class="header">
+                <h1 class="dojoweather">DojoWeather</h1>
+                <ul>
+                    <li onclick="alert('Loading weather report...')">Burbank</li>
+                    <li>Chicago</li>
+                    <li>Dallas</li>
+                </ul>
+            </div>
+        <div main-content>
+            <div class="header_content">
+                <h1>San Jose</h1>
+                <div class="temperature">
+                    <p>show temperature in</p>
+                    <div class="temp">
+                    <button>C°</button>
+                    <select id="select" onchange="myFunction()">
+                        <option value="Celcius">Celcius</option>
+                        <option value="Fahrenheit">Fahrenheit</option>
+                    </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h3>Today</h3>
+                    <img src="assets/some_rain.png" alt="">
+                    <h4>some rain</h4>
+                    <div class="numbers">
+                    <h3 class="numbers_first">24°</h3>
+                    <h3 class="numbers_second">18°</h3>
+                    </div>
+                </div>
+                <div class="column">  
+                    <h3>Tomorrow</h3>
+                    <img src="assets/some_sun.png" alt="">
+                    <h4>some sun</h4>
+                    <div class="numbers">
+                    <h3 class="numbers_first">27°</h3>
+                    <h3 class="numbers_second">19°</h3>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3>Friday</h3>
+                    <img src="assets/some_clouds.png" alt="">
+                    <h4>some clouds</h4>
+                    <div class="numbers">
+                    <h3 class="numbers_first">21°</h3>
+                    <h3 class="numbers_second">16°</h3>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3>Saturday</h3>
+                    <img src="assets/some_sun.png" alt="">
+                    <h4>some sun</h4>
+                    <div class="numbers">
+                    <h3 class="numbers_first">26°</h3>
+                    <h3 class="numbers_second">21°</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <img src="assets/cookie.png" alt="">
+                <div class="footer_text">
+                    <h3 id="Cookie">Stop! Cookie time</h3>
+                    <p>We use cookies(sadly not the edible ones)to personalize <br> content and ads, to provide social media features and to <br> analyse our traffic. <span>Read more</span>
+                    </p>
+                </div>
+                <button onclick="hide(footer)">I Accept</button>    
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
