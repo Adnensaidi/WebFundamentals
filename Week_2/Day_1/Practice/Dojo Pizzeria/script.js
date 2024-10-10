@@ -1,32 +1,22 @@
-var sandwich = {
-    bread:    "sourdough",
-    protein:  "london broil",
-    cheese:   "lacey swiss cheese",
-    toppings: ["romaine lettuce", "heirloom tomatoes", "horseradish sauce"]
-};
-    
-console.log(sandwich);
-
-function sandwichFactory(bread, protein, cheese, toppings) {
-    var sandwich = {};
-    sandwich.bread = bread;
-    sandwich.protein = protein;
-    sandwich.cheese = cheese;
-    sandwich.toppings = toppings;
-    return sandwich;
-}
-    
-var s1 = sandwichFactory("wheat", "turkey", "provolone", ["mustard", "fried onions", "arugula"]);
-console.log(s1);
-// Create a pizza with: "deep dish", "traditional", ["mozzarella"], and ["pepperoni", "sausage"]
-crustType, sauceType, cheeses, and toppings.
-
-
-function pizzaOven(crustType,sauceType,cheeses,toppings) {
+function pizzaOven(crustType, sauceType, cheeses, toppings) {
     var pizza = {};
-    pizza.crustType = deepdish;
-    pizza.sauceType = traditional;
-    pizza.cheeses = mozzarella;
-    pizza.toppings = pepperoni;
-    return pizza ;
+    pizza.crustType = crustType;  
+    pizza.sauceType = sauceType;  
+    pizza.cheeses = cheeses;      
+    pizza.toppings = toppings;    
+    return pizza;                 
 }
+
+// Create pizzas
+var pizza1 = pizzaOven("deep dish", "traditional", ["mozzarella"], ["pepperoni", "sausage"]);
+var pizza2 = pizzaOven("hand tossed", "marinara", ["mozzarella", "feta"], ["mushrooms", "olives", "onions"]);
+
+// Create two more pizzas
+var pizza3 = pizzaOven("thin crust", "bbq", ["cheddar"], ["chicken", "red onions"]);
+var pizza4 = pizzaOven("stuffed crust", "alfredo", ["parmesan", "mozzarella"], ["spinach", "artichokes", "sun-dried tomatoes"]);
+
+// Display the pizzas
+console.log(pizza1);
+console.log(pizza2);
+console.log(pizza3);
+console.log(pizza4);
