@@ -1,71 +1,73 @@
 * {
-    padding: 0%;
-    margin: 0px auto;
+    padding: 0;
+    margin: 0;
 }
 
-.navbar { 
-    margin: 0 auto;
-    width: 900px;
-    padding: 20px;
-    background-color: black;
-    color: white;
-} 
-.head {
+body {
+
+    background-color: #f0f0f0; 
+}
+
+h1 {
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
+.network-title {
+    background-color: black; 
+    color: white;
+    text-align: center; 
+    padding: 20px; 
+}
 
+.main-container {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    margin: 20px auto;
+}
+
+.avatar-container {
+    width: 150px; 
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items:center;
+    margin-right: 40px; 
+    border: 2px solid black;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 80px;
+    height: 100px;
+}
+
+.add-avatar {
+    color: blue;
+}
 
 .container {
     display: flex;
-    margin-top: 20px;
-    gap: 50px;
-    height: 200px;
-    width: 200px;
-}
-.sidebar span {
-    color: blue;
-    
+    flex-direction: column; 
 }
 
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-    border: 3px solid black;
-    padding: 40px;
-    height: 200px;
-}
-.sidebar img {
-    height: 80px;
-    width: 80px;
-    margin-top: 20px;
-    border-radius: 50%;
-}
 .user {
-    border:3px solid black;
-    display: flex;
-    gap: 50px;
-}
-.main-content {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
-} 
+    margin-bottom: 20px;
+    border: 2px solid black; 
+    padding: 10px; }
 
-.main-content button {
+.container button {
     background-color: #f2ca4e;
     padding: 10px;
     width: 50px;
     height: 40px;
     border: 3px solid black;
     box-shadow: 5px 2px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}
-
-.container span {
-    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
